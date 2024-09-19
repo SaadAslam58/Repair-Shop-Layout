@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 170, 255);
+  justify-content: center;
+}
+
+.logo h1 {
+  float: left;
+  color: aliceblue;
+  padding: 10px;
+}
+
+nav {
+  background-color: blue;
+  height: 1px;
+  padding: 5px;
+  height: 51px;
+  border-radius: 15px;
+  margin: 0 3px;
+}
+
+ul {
+  float: right;
+  display: grid;
+  grid-template-columns: 90px 90px;
+  grid-template-rows: auto auto;
+  grid-gap: 9px 9px;
+  margin-top: 2px;
+}
+li {
+  cursor: pointer;
+  text-align: center;
+}
+
+.item {
+  background-color: aliceblue;
+  border: blanchedalmond;
+  border-radius: 9px;
+  list-style-type: none;
+  padding: 0 2px;
+}
+
+.menu {
+  background-image: url(electro.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 200px 30px;
+  border-radius: 30px;
+  margin: 5px 10px;
+  border: 1px solid black;
+}
+.menu button {
+  margin-top: 20px;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  padding: 15px 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+h2 {
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 5px 10px;
+  display: inline;
+}
+.compo h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 310px;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px 10px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.hero {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.hero .container img {
+  width: 30%;
+  width: 330px;
+  height: 200px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.hero {
+  text-align: center;
+  justify-content: space-between;
+  margin: 100px 20px 0;
+}
+
+.hero .container {
+  margin: 20px;
+}
+
+.hero .container h3 {
+  color: white;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.hero .container span {
+  color: solid black;
+  text-decoration-line: underline;
+}
+
+footer {
+  background-color: blue;
+  border-radius: 15px;
+  margin: 0 3px;
+}
+
+.center {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
